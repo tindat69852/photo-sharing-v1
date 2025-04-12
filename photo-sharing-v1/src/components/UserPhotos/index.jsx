@@ -20,7 +20,7 @@ const UserPhotos = () => {
             <img
           
               className="img-resize"
-              src={`/images/${photo.file_name}`}
+              src={require(`../../images/${photo.file_name}`)}
               alt="User Upload"
               style={{
                 width: '100%',
